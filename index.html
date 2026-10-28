@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RK2 — assistant de veille immobilière de JSB Immobilier</title>
+<style>
+  :root {
+    --fond: #eef1f3;
+    --encre: #1c2733;
+    --doux: #52606d;
+    --zinc: #3a5a78;
+    --filet: #c9d2da;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #141b22;
+      --encre: #e4e9ee;
+      --doux: #9aa8b5;
+      --zinc: #8fb2d1;
+      --filet: #2c3843;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--encre);
+    font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+  main { max-width: 38rem; margin: 0 auto; padding: 4rem 1.5rem 5rem; }
+  h1 {
+    font-size: clamp(2.6rem, 9vw, 4rem);
+    line-height: 1;
+    margin: 0 0 1.25rem;
+    letter-spacing: -0.02em;
+    color: var(--zinc);
+  }
+  .accroche { font-size: 1.3rem; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 0.5rem; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--zinc); text-underline-offset: 0.2em; }
+  a:focus-visible { outline: 2px solid var(--zinc); outline-offset: 3px; }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--filet);
+    color: var(--doux);
+    font-size: 0.95rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>RK2</h1>
+  <p class="accroche">L’assistant de veille immobilière de JSB Immobilier, agent indépendant à Paris.</p>
+
+  <h2>À quoi sert RK2</h2>
+  <p>RK2 lit les alertes d’annonces immobilières reçues sur une boîte Gmail dédiée, en extrait les caractéristiques des biens (prix, surface, localisation, lien) et les range dans une base de veille privée, pour aider l’agent à repérer plus vite les biens intéressants pour ses clients.</p>
+
+  <h2>Qui l’utilise</h2>
+  <p>RK2 est un outil interne. Il n’est ni vendu ni proposé au public : il n’est utilisé que par son propriétaire, sur sa propre boîte Gmail, et fonctionne sur sa propre machine.</p>
+
+  <h2>Vos données</h2>
+  <p>L’accès à Gmail se fait en lecture seule, et rien n’est transmis à des tiers. Le détail est dans les <a href="confidentialite.html">règles de confidentialité</a>.</p>
+
+  <footer>
+    Contact : <a href="mailto:cicyle.spam@gmail.com">cicyle.spam@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

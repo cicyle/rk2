@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité — RK2</title>
+<style>
+  :root {
+    --fond: #eef1f3;
+    --encre: #1c2733;
+    --doux: #52606d;
+    --zinc: #3a5a78;
+    --filet: #c9d2da;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #141b22;
+      --encre: #e4e9ee;
+      --doux: #9aa8b5;
+      --zinc: #8fb2d1;
+      --filet: #2c3843;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--encre);
+    font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+  main { max-width: 38rem; margin: 0 auto; padding: 4rem 1.5rem 5rem; }
+  .retour { font-size: 0.95rem; }
+  h1 { font-size: clamp(2rem, 7vw, 2.8rem); line-height: 1.1; margin: 1.5rem 0 0.5rem; color: var(--zinc); }
+  .maj { color: var(--doux); margin: 0 0 2.5rem; }
+  h2 { font-size: 1.2rem; margin: 2.25rem 0 0.5rem; }
+  p, ul { margin: 0 0 1rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  a { color: var(--zinc); text-underline-offset: 0.2em; }
+  a:focus-visible { outline: 2px solid var(--zinc); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="retour" href="./">Retour à RK2</a>
+  <h1>Règles de confidentialité</h1>
+  <p class="maj">Dernière mise à jour : 28 octobre 2026</p>
+
+  <h2>Qui est responsable</h2>
+  <p>RK2 est un outil interne de JSB Immobilier, agent immobilier indépendant à Paris. Il n’est utilisé que par son propriétaire, sur sa propre boîte Gmail. Contact : <a href="mailto:cicyle.spam@gmail.com">cicyle.spam@gmail.com</a>.</p>
+
+  <h2>Données consultées</h2>
+  <p>Avec l’autorisation du titulaire du compte, RK2 lit en lecture seule les emails reçus sur la boîte Gmail dédiée aux alertes immobilières. Il ne peut ni envoyer, ni modifier, ni supprimer d’email.</p>
+
+  <h2>Utilisation</h2>
+  <ul>
+    <li>Extraire les caractéristiques des annonces reçues (type de bien, prix, surface, localisation, lien vers l’annonce).</li>
+    <li>Constituer une base de veille privée et éviter les doublons entre portails.</li>
+    <li>Signaler à l’agent les annonces correspondant aux recherches de ses clients.</li>
+  </ul>
+
+  <h2>Stockage et partage</h2>
+  <ul>
+    <li>Les données sont traitées et stockées localement, sur la machine du propriétaire.</li>
+    <li>Elles ne sont ni vendues, ni louées, ni transmises à des tiers, ni utilisées à des fins publicitaires.</li>
+    <li>Elles ne servent pas à entraîner des modèles d’intelligence artificielle.</li>
+  </ul>
+  <p>L’utilisation des informations reçues des API Google respecte la <a href="https://developers.google.com/terms/api-services-user-data-policy">Politique relative aux données utilisateur des services d’API Google</a>, y compris les exigences d’utilisation limitée.</p>
+
+  <h2>Conservation et suppression</h2>
+  <p>Les données d’annonces sont conservées tant qu’elles sont utiles à la veille. Le titulaire du compte peut retirer l’accès de RK2 à tout moment depuis <a href="https://myaccount.google.com/permissions">la page des autorisations de son compte Google</a>, et demander la suppression des données locales à l’adresse de contact ci-dessus.</p>
+</main>
+</body>
+</html>
